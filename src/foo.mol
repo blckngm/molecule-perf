@@ -1,0 +1,13 @@
+array Byte32 [byte; 32];
+
+struct MyStruct {
+    a1: Byte32,
+    a2: Byte32,
+    a3: Byte32,
+}
+
+struct MyStruct2 {
+    s1: MyStruct,
+    s2: MyStruct,
+    s3: MyStruct,
+}
