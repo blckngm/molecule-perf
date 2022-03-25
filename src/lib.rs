@@ -8,6 +8,11 @@ mod generated;
 // test bench_builder ... bench:         115 ns/iter (+/- 3)
 // test bench_manual  ... bench:          24 ns/iter (+/- 1)
 
+// Optimized:
+// running 2 tests
+// test bench_builder ... bench:          62 ns/iter (+/- 0)
+// test bench_manual  ... bench:          24 ns/iter (+/- 0)
+
 #[bench]
 fn bench_builder(b: &mut test::Bencher) {
     use generated::*;
